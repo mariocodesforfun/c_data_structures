@@ -1,0 +1,47 @@
+# C build artifacts
+*.o
+*.out
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.dSYM/
+
+# Common local binaries
+approx_counter
+lock_counter
+benchmark
+run
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+.venv/
+env/
+.env/
+pip-wheel-metadata/
+build/
+dist/
+*.egg-info/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Generated benchmark/output files
+*.log
+*.tmp
+
+# macOS and editor files
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
